@@ -74,16 +74,30 @@ onMounted(() => {
     </CardBoxModal>
     <SectionMain>
       <SectionTitleLineWithButton :icon="mdiChartPie" title="Expenses">
-        <BaseButton
-          @click="reportsModalOneActive = true"
-          href=""
-          target="_blank"
-          :icon="mdiExportVariant"
-          label="Export Data"
-          color="gray"
-          rounded-full
-          small
-        />
+        <div class="space-x-6">
+           <BaseButton
+           @click="reportsModalOneActive = true"
+            href=""
+            target="_blank"
+            :icon="mdiExportVariant"
+            label="Export Reports"
+            color="gray"
+            rounded-full
+            small
+
+          />
+          <BaseButton
+            @click="reportsModalOneActive = true"
+            href=""
+            target="_blank"
+            :icon="mdiExportVariant"
+            label="Export Data"
+            color="gray"
+            rounded-full
+            small
+
+          />
+     </div>
       </SectionTitleLineWithButton>
 <div class="">
 <CardBox class="mb-6">

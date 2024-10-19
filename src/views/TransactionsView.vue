@@ -103,7 +103,7 @@ const formStatusSubmit = () => {
         /> -->
       </SectionTitleLineWithButton>
       <CardBox form @submit.prevent="submit">
-        <div class="grid grid-cols-1 gap-6 lg:grid-cols-6">
+        <div class="grid grid-cols-2 gap-6 lg:grid-cols-6">
           <FormField label="Name" class="col-span-2">
             <FormControl v-model="form.assetName" class="flex-1" placeholder="Your Asset Name" :options="transactionNameOptions" />
             <BaseButton

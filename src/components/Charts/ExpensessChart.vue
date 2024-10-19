@@ -52,9 +52,7 @@ onMounted(() => {
         legend: {
           display: true,
           position: 'top',
-           labels: {
-            color: 'yellow' // Ensure the legend text is visible
-          }
+         
         }
       }
     }

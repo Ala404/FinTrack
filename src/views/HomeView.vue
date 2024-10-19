@@ -24,7 +24,7 @@ import CardBoxClient from '@/components/CardBoxClient.vue'
 import LayoutAuthenticated from '@/layouts/LayoutAuthenticated.vue'
 import SectionTitleLineWithButton from '@/components/SectionTitleLineWithButton.vue'
 import ChartTwo from '@/components/Charts/CashFlowChart.vue'
-import LineChartExpensess from '@/components/Charts/ExpensessChart.vue'
+import BudgetChart from '@/components/Charts/BudgetChart.vue'
 import CardBoxModal from '@/components/CardBoxModal.vue'
 import FormField from '@/components/FormField.vue'
 import FormControl from '@/components/FormControl.vue'
@@ -104,7 +104,7 @@ const transactionBarItems = computed(() => mainStore.history)
           small
         /> -->
     </CardBoxModal>
- 
+
     <SectionMain>
       <SectionTitleLineWithButton :icon="mdiChartTimelineVariant" title="Overview" main>
      <div class="space-x-6">
@@ -179,17 +179,23 @@ const transactionBarItems = computed(() => mainStore.history)
 
    <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 mb-6 items-center">
         <CardBox class="mb-6">
-          <div v-if="chartData">
+          <div v-if="chartData" class="mb-8">
             <line-chart :data="chartData" class="h-96" />
           </div>
+
         </CardBox>
 
 
-         <CardBox class="mb-6">
-          <div v-if="chartData">
-            <chart-two :data="chartData" />
-          </div>
-        </CardBox>
+
+           <CardBox class="mb-6">
+             <div v-if="chartData">
+              <chart-two :data="chartData" />
+            </div>
+            <div class="my-6">
+              <budget-chart  class="max-h-72"/>
+            </div>
+          </CardBox>
+
    </div>
 
 

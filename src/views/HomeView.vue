@@ -28,6 +28,7 @@ import BudgetChart from '@/components/Charts/BudgetChart.vue'
 import CardBoxModal from '@/components/CardBoxModal.vue'
 import FormField from '@/components/FormField.vue'
 import FormControl from '@/components/FormControl.vue'
+import BaseDivider from '@/components/BaseDivider.vue'
 // import SectionBannerStarOnGitHub from '@/components/SectionBannerStarOnGitHub.vue'
 
 const chartData = ref(null)
@@ -94,7 +95,7 @@ const transactionBarItems = computed(() => mainStore.history)
       <FormField label="Data Type" class="col-span-2">
         <FormControl v-model="reportsForm.dataType" class="flex-1"  :options="exportType"  />
       </FormField>
- 
+
     </CardBoxModal>
 
     <SectionMain>
@@ -183,6 +184,7 @@ const transactionBarItems = computed(() => mainStore.history)
              <div v-if="chartData">
               <chart-two :data="chartData" />
             </div>
+            <BaseDivider  class="my-6"/>
             <div class="my-6">
               <budget-chart  class="max-h-72"/>
             </div>

@@ -11,15 +11,33 @@ import BaseButton from '@/components/BaseButton.vue'
 import LayoutAuthenticated from '@/layouts/LayoutAuthenticated.vue'
 import SectionTitleLineWithButton from '@/components/SectionTitleLineWithButton.vue'
 import LineChartExpensess from '@/components/Charts/ExpensessChart.vue'
+import CardBoxModal from '@/components/CardBoxModal.vue'
+import FormField from '@/components/FormField.vue'
+import FormControl from '@/components/FormControl.vue'
 // import SectionBannerStarOnGitHub from '@/components/SectionBannerStarOnGitHub.vue'
 
 const chartData = ref(null)
 const ExpensesData = ref(null)
+const reportsModalOneActive = ref(false)
 
 const fillChartData = () => {
   chartData.value = chartConfig.sampleChartData()
   ExpensesData.value = chartConfig.sampleChartData()
 }
+
+const exportType = [
+  { id: 1, label: 'PDF' },
+  { id: 2, label: 'CSV' },
+  { id: 3, label: 'EXCEL' }
+]
+
+const reportsForm = {
+  startDate: '',
+  endDate: '',
+  dataType: exportType[0],
+  dataToExport: exportType[0]
+}
+
 
 const expensess = [
   { id: 1, label: 'Rent', amount: 1000 },
@@ -35,9 +53,29 @@ onMounted(() => {
 
 <template>
   <LayoutAuthenticated>
+     <CardBoxModal
+      v-model="reportsModalOneActive"
+      title="add new transaction"
+      button-label="Done"
+      has-cancel
+      form
+    >
+
+      <FormField label="Start Date" class="col-span-2">
+        <FormControl  v-model="reportsForm.startDate" type="date" class="flex-1"   />
+      </FormField>
+      <FormField label="End Date" class="col-span-2">
+        <FormControl v-model="reportsForm.endDate" type="date" class="flex-1"   />
+      </FormField>
+      <FormField label="Data Type" class="col-span-2">
+        <FormControl v-model="reportsForm.dataType" class="flex-1"  :options="exportType"  />
+      </FormField>
+
+    </CardBoxModal>
     <SectionMain>
       <SectionTitleLineWithButton :icon="mdiChartPie" title="Expenses">
         <BaseButton
+          @click="reportsModalOneActive = true"
           href=""
           target="_blank"
           :icon="mdiExportVariant"

@@ -33,18 +33,6 @@ export default [
     label: 'Transactions'
   },
 
-
-  {
-    to: '/forms',
-    label: 'Forms',
-    icon: mdiSquareEditOutline
-  },
-  {
-    to: '/ui',
-    label: 'UI',
-    icon: mdiTelevisionGuide
-  },
-
   {
     to: '/profile',
     label: 'Profile',

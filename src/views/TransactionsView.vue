@@ -104,14 +104,14 @@ const formStatusSubmit = () => {
       </SectionTitleLineWithButton>
       <CardBox form @submit.prevent="submit">
         <div class="grid grid-cols-2 gap-6 lg:grid-cols-6">
-          <FormField label="Name" class="col-span-2">
+          <FormField label="Name" class="md:col-span-6">
             <FormControl v-model="form.assetName" class="flex-1" placeholder="Your Asset Name" :options="transactionNameOptions" />
             <BaseButton
               @click="modalOneActive = true"
               :icon="mdiPlus"
               label="Add"
               color="info"
-              class="text-white "
+              class="text-white w-1/2"
               rounded
               small
             />
@@ -135,9 +135,8 @@ const formStatusSubmit = () => {
         </div>
 
         <template #footer>
-          <BaseButtons>
-            <BaseButton type="submit" color="info" label="Add" />
-            <BaseButton type="reset" color="info" outline label="Reset" />
+          <BaseButtons >
+            <BaseButton type="submit" color="info" label="Add Tansaction"   :icon="mdiPlus" class="w-48 p-8"/>
           </BaseButtons>
         </template>
       </CardBox>

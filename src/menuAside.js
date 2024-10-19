@@ -33,11 +33,11 @@ export default [
     label: 'Transactions'
   },
 
-  {
-    to: '/tables',
-    label: 'Tables',
-    icon: mdiTable
-  },
+  // {
+  //   to: '/tables',
+  //   label: 'Tables',
+  //   icon: mdiTable
+  // },
   {
     to: '/forms',
     label: 'Forms',

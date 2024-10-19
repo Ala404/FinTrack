@@ -11,7 +11,7 @@ import {
   mdiResponsive,
   mdiPalette,
   mdiHandCoin,
-mdiHandExtended
+  mdiSwapVerticalBold
 } from '@mdi/js'
 
 export default [
@@ -20,24 +20,24 @@ export default [
     icon: mdiMonitor,
     label: 'Dashboard'
   },
+  //expenses
+  {
+    to: '/expenses',
+    icon: mdiViewList,
+    label: 'Expenses'
+  },
   // Assets & Liabilities
   {
-    to: '/assets',
-    icon: mdiHandCoin,
-    label: 'Assets'
+    to: '/transactions',
+    icon: mdiSwapVerticalBold,
+    label: 'Transactions'
   },
 
   {
-    to: '/liabilities',
-    icon: mdiHandExtended,
-    label: 'Liabilities'
+    to: '/tables',
+    label: 'Tables',
+    icon: mdiTable
   },
-
-  // {
-  //   to: '/tables',
-  //   label: 'Tables',
-  //   icon: mdiTable
-  // },
   {
     to: '/forms',
     label: 'Forms',
@@ -63,11 +63,10 @@ export default [
     to: '/login',
     label: 'Login',
     icon: mdiLock
-  },
+  }
   // {
   //   to: '/error',
   //   label: 'Error',
   //   icon: mdiAlertCircle
   // },
- 
 ]

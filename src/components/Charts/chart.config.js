@@ -2,7 +2,8 @@ export const chartColors = {
   default: {
     primary: '#00D1B2',
     info: '#209CEE',
-    danger: '#FF3860'
+    danger: '#FF3860',
+    warning: '#FFDD57',
   }
 }
 
@@ -16,7 +17,17 @@ const randomChartData = (n) => {
   return data
 }
 
-const datasetObject = (color, points) => {
+export const assignData = (data, labels) => {
+
+  return {
+    labels,
+    data
+  }
+}
+
+
+
+const datasetObject = (color, data) => {
   return {
     fill: false,
     borderColor: chartColors.default[color],
@@ -30,21 +41,15 @@ const datasetObject = (color, points) => {
     pointHoverRadius: 4,
     pointHoverBorderWidth: 15,
     pointRadius: 4,
-    data: randomChartData(points),
+    data: data || randomChartData(5),
     tension: 0.5,
     cubicInterpolationMode: 'default'
   }
 }
 
-export const sampleChartData = (points = 9) => {
-  const labels = ['January', 'February', 'March', 'April', 'May']
-
+export const sampleChartData = (datasets, labels) => {
   return {
     labels,
-    datasets: [
-      datasetObject('primary', points),
-      datasetObject('info', points),
-      datasetObject('danger', points)
-    ]
+    datasets
   }
 }

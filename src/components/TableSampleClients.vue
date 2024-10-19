@@ -1,7 +1,7 @@
 <script setup>
 import { computed, ref } from 'vue'
 import { useMainStore } from '@/stores/main'
-import { mdiEye, mdiTrashCan } from '@mdi/js'
+import { mdiEye, mdiTrashCan,mdiPencil } from '@mdi/js'
 import CardBoxModal from '@/components/CardBoxModal.vue'
 import TableCheckboxCell from '@/components/TableCheckboxCell.vue'
 import BaseLevel from '@/components/BaseLevel.vue'
@@ -83,10 +83,10 @@ const checked = (isChecked, client) => {
         <th v-if="checkable" />
         <th />
         <th>Name</th>
-        <th>Company</th>
-        <th>City</th>
-        <th>Progress</th>
-        <th>Created</th>
+        <th>Type</th>
+        <th>Price</th>
+        <th>Amount</th>
+        <th>Date</th>
         <th />
       </tr>
     </thead>
@@ -99,25 +99,28 @@ const checked = (isChecked, client) => {
         <td data-label="Name">
           {{ client.name }}
         </td>
-        <td data-label="Company">
-          {{ client.company }}
+        <td data-label="Type">
+          {{ client.type }}
         </td>
-        <td data-label="City">
-          {{ client.city }}
+        <td data-label="Price">
+          {{ client.price }}
         </td>
-        <td data-label="Progress" class="lg:w-32">
+        <!-- <td data-label="Progress" class="lg:w-32">
           <progress class="flex w-2/5 self-center lg:w-full" max="100" :value="client.progress">
             {{ client.progress }}
           </progress>
+        </td> -->
+        <td data-label="Amount">
+          {{ client.amount }}
         </td>
         <td data-label="Created" class="lg:w-1 whitespace-nowrap">
-          <small class="text-gray-500 dark:text-slate-400" :title="client.created">{{
-            client.created
+          <small class="text-gray-500 dark:text-slate-400" :title="client.date">{{
+            client.date
           }}</small>
         </td>
         <td class="before:hidden lg:w-1 whitespace-nowrap">
           <BaseButtons type="justify-start lg:justify-end" no-wrap>
-            <BaseButton color="info" :icon="mdiEye" small @click="isModalActive = true" />
+            <BaseButton color="info" :icon="mdiPencil" small @click="isModalActive = true" />
             <BaseButton
               color="danger"
               :icon="mdiTrashCan"

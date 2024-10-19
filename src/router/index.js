@@ -21,14 +21,24 @@ const routes = [
     name: 'dashboard',
     component: Home
   },
+
+  //ExpensessView.vue
+  {
+    meta: {
+      title: 'Expenses'
+    },
+    path: '/expenses',
+    name: 'expenses',
+    component: () => import('@/views/ExpensesView.vue')
+  },
   //assets and liabilities
   {
     meta: {
-      title: 'Assets'
+      title: 'Transactions'
     },
-    path: '/assets',
-    name: 'assets',
-    component: () => import('@/views/AssetsView.vue')
+    path: '/transactions',
+    name: 'transactions',
+    component: () => import('@/views/TransactionsView.vue')
   },
 
   {

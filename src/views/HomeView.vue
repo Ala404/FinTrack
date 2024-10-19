@@ -29,6 +29,8 @@ import CardBoxModal from '@/components/CardBoxModal.vue'
 import FormField from '@/components/FormField.vue'
 import FormControl from '@/components/FormControl.vue'
 import BaseDivider from '@/components/BaseDivider.vue'
+//import report.pdf file
+
 // import SectionBannerStarOnGitHub from '@/components/SectionBannerStarOnGitHub.vue'
 
 const chartData = ref(null)
@@ -72,12 +74,23 @@ const mainStore = useMainStore()
 const clientBarItems = computed(() => mainStore.clients.slice(0, 4))
 
 const transactionBarItems = computed(() => mainStore.history)
+
+const downloadReport = () => {
+  const link = document.createElement('a')
+  link.href = '/report.pdf'
+  link.download = 'report.pdf'
+  document.body.appendChild(link)
+  link.click()
+  document.body.removeChild(link)
+  reportsModalOneActive.value = false
+}
 </script>
 
 <template>
   <LayoutAuthenticated>
       <CardBoxModal
       v-model="reportsModalOneActive"
+      @confirm="downloadReport"
       title="add new transaction"
       button-label="Done"
       has-cancel

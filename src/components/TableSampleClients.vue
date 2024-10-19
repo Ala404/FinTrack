@@ -16,44 +16,7 @@ defineProps({
 const mainStore = useMainStore()
 
 // const items = computed(() => mainStore.clients)
-const items = ref([
-  {
-    id: 1,
-    name: 'John Doe',
-    type: 'Assets',
-    price: '$100',
-    amount: 10,
-    date: '2021-01-01',
-
-  },
-  {
-    id: 2,
-    name: 'Jane Doe',
-    type: 'Liabilities',
-    price: '$200',
-    amount: 20,
-    date: '2021-01-02',
-
-  },
-  {
-    id: 3,
-    name: 'John Smith',
-    type: 'Debt',
-    price: '$300',
-    amount: 30,
-    date: '2021-01-03',
-
-  },
-  {
-    id: 4,
-    name: 'Jane Smith',
-    type: 'Assets',
-    price: '$400',
-    amount: 40,
-    date: '2021-01-04',
-
-  }
-])
+const items = ref(mainStore.transactionsData)
 
 const isModalActive = ref(false)
 

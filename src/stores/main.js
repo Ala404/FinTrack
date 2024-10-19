@@ -2,7 +2,21 @@ import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import axios from 'axios'
 
+
+
+
 export const useMainStore = defineStore('main', () => {
+  const transactionsData = ref([])
+
+  // Fetch the JSON file from the public folder
+  fetch('/data.json')
+    .then((response) => response.json())
+    .then((data) => {
+      transactionsData.value = data.slice(0, 20)
+    })
+    .catch((error) => {
+      console.error('Error loading transactions data:', error)
+    })
   const userName = ref('Aladin')
   const userEmail = ref('doe.doe.doe@example.com')
 
@@ -59,6 +73,7 @@ export const useMainStore = defineStore('main', () => {
     history,
     setUser,
     fetchSampleClients,
-    fetchSampleHistory
+    fetchSampleHistory,
+    transactionsData
   }
 })

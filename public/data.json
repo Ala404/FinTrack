@@ -1,0 +1,4962 @@
+[
+    {
+        "name": "buy raw material 1",
+        "date": "2024-01-01 00:00:00",
+        "price": -12,
+        "amount": 10,
+        "id": 0,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-01-01 00:00:00",
+        "price": -5,
+        "amount": 17,
+        "id": 1,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-01-01 00:00:00",
+        "price": -2,
+        "amount": 18,
+        "id": 2,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-02 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 3,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-02 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 4,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-02 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 5,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-02 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 6,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-03 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 7,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-03 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 8,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-04 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 9,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-04 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 10,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-04 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 11,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-05 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 12,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-06 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 13,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-07 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 14,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-01-08 00:00:00",
+        "price": -12,
+        "amount": 1,
+        "id": 15,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-01-08 00:00:00",
+        "price": -5,
+        "amount": 26,
+        "id": 16,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-01-08 00:00:00",
+        "price": -2,
+        "amount": 7,
+        "id": 17,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-09 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 18,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-09 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 19,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-09 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 20,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-10 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 21,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-10 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 22,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-11 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 23,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-11 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 24,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-11 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 25,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-11 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 26,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-12 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 27,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-13 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 28,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-01-15 00:00:00",
+        "price": -15,
+        "amount": 15,
+        "id": 29,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-01-15 00:00:00",
+        "price": -7,
+        "amount": 40,
+        "id": 30,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-01-15 00:00:00",
+        "price": -3,
+        "amount": 17,
+        "id": 31,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-16 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 32,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-16 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 33,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-16 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 34,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-16 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 35,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-17 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 36,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-17 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 37,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-17 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 38,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-18 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 39,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-18 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 40,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-18 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 41,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-18 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 42,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-18 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 43,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-19 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 44,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-19 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 45,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-19 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 46,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-20 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 47,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-21 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 48,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-01-22 00:00:00",
+        "price": -12,
+        "amount": 6,
+        "id": 49,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-01-22 00:00:00",
+        "price": -7,
+        "amount": 21,
+        "id": 50,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-01-22 00:00:00",
+        "price": -5,
+        "amount": 15,
+        "id": 51,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-23 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 52,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-23 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 53,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-23 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 54,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-23 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 55,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-24 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 56,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-24 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 57,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-24 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 58,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-25 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 59,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-25 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 60,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-25 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 61,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-26 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 62,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-26 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 63,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-01-29 00:00:00",
+        "price": -10,
+        "amount": 1,
+        "id": 64,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-01-29 00:00:00",
+        "price": -7,
+        "amount": 20,
+        "id": 65,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-01-29 00:00:00",
+        "price": -5,
+        "amount": 10,
+        "id": 66,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-01-30 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 67,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-30 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 68,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-31 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 69,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-01-31 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 70,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-01 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 71,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-01 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 72,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-02 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 73,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-03 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 74,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-03 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 75,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-02-05 00:00:00",
+        "price": -10,
+        "amount": 4,
+        "id": 76,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-02-05 00:00:00",
+        "price": -5,
+        "amount": 24,
+        "id": 77,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-02-05 00:00:00",
+        "price": -2,
+        "amount": 13,
+        "id": 78,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-06 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 79,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-06 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 80,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-07 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 81,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-07 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 82,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-07 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 83,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-07 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 84,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-08 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 85,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-08 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 86,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-08 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 87,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-09 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 88,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-10 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 89,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-10 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 90,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-02-12 00:00:00",
+        "price": -10,
+        "amount": 6,
+        "id": 91,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-02-12 00:00:00",
+        "price": -5,
+        "amount": 16,
+        "id": 92,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-02-12 00:00:00",
+        "price": -3,
+        "amount": 9,
+        "id": 93,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-13 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 94,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-13 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 95,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-13 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 96,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-14 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 97,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-15 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 98,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-15 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 99,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-15 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 100,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-18 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 101,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-19 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 102,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-02-19 00:00:00",
+        "price": -10,
+        "amount": 7,
+        "id": 103,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-02-19 00:00:00",
+        "price": -7,
+        "amount": 33,
+        "id": 104,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-02-19 00:00:00",
+        "price": -3,
+        "amount": 18,
+        "id": 105,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-20 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 106,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-20 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 107,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-20 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 108,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-20 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 109,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-21 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 110,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-21 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 111,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-21 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 112,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-22 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 113,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-22 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 114,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-22 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 115,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-22 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 116,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-23 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 117,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-23 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 118,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-24 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 119,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-25 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 120,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-02-26 00:00:00",
+        "price": -12,
+        "amount": 13,
+        "id": 121,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-02-26 00:00:00",
+        "price": -7,
+        "amount": 24,
+        "id": 122,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-02-26 00:00:00",
+        "price": -5,
+        "amount": 6,
+        "id": 123,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-27 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 124,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-27 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 125,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-27 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 126,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-02-27 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 127,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-28 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 128,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-28 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 129,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-29 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 130,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-02-29 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 131,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-01 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 132,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-01 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 133,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-02 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 134,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-03-04 00:00:00",
+        "price": -12,
+        "amount": 10,
+        "id": 135,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-03-04 00:00:00",
+        "price": -5,
+        "amount": 25,
+        "id": 136,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-03-04 00:00:00",
+        "price": -2,
+        "amount": 7,
+        "id": 137,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-05 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 138,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-05 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 139,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-05 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 140,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-06 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 141,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-06 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 142,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-06 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 143,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-07 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 144,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-07 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 145,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-07 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 146,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-07 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 147,
+        "type": "Assets"
+    },
+    {
+        "name": "Maintainance",
+        "date": "2024-03-10 00:00:00",
+        "price": -500,
+        "amount": 1,
+        "id": 148,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-03-11 00:00:00",
+        "price": -12,
+        "amount": 2,
+        "id": 149,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-03-11 00:00:00",
+        "price": -6,
+        "amount": 19,
+        "id": 150,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-03-11 00:00:00",
+        "price": -5,
+        "amount": 12,
+        "id": 151,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-12 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 152,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-12 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 153,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-12 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 154,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-12 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 155,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-13 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 156,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-13 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 157,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-14 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 158,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-14 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 159,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-15 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 160,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-16 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 161,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-03-18 00:00:00",
+        "price": -10,
+        "amount": 0,
+        "id": 162,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-03-18 00:00:00",
+        "price": -5,
+        "amount": 22,
+        "id": 163,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-03-18 00:00:00",
+        "price": -2,
+        "amount": 15,
+        "id": 164,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-19 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 165,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-19 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 166,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-19 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 167,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-20 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 168,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-20 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 169,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-21 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 170,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-21 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 171,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-21 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 172,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-22 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 173,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-22 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 174,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-24 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 175,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-03-25 00:00:00",
+        "price": -15,
+        "amount": 11,
+        "id": 176,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-03-25 00:00:00",
+        "price": -5,
+        "amount": 32,
+        "id": 177,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-03-25 00:00:00",
+        "price": -2,
+        "amount": 5,
+        "id": 178,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-26 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 179,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-26 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 180,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-26 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 181,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-26 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 182,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-26 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 183,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-26 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 184,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-27 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 185,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-27 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 186,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-28 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 187,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-28 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 188,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-03-28 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 189,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-28 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 190,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-30 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 191,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-03-31 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 192,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-04-01 00:00:00",
+        "price": -12,
+        "amount": 0,
+        "id": 193,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-04-01 00:00:00",
+        "price": -5,
+        "amount": 5,
+        "id": 194,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-04-01 00:00:00",
+        "price": -3,
+        "amount": 6,
+        "id": 195,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-04-03 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 196,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-04-04 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 197,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-04-05 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 198,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-04-06 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 199,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-04-08 00:00:00",
+        "price": -12,
+        "amount": 0,
+        "id": 200,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-04-08 00:00:00",
+        "price": -6,
+        "amount": 12,
+        "id": 201,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-04-08 00:00:00",
+        "price": -5,
+        "amount": 2,
+        "id": 202,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-04-09 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 203,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-04-11 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 204,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-04-11 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 205,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-04-12 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 206,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-04-13 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 207,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-04-13 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 208,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-04-15 00:00:00",
+        "price": -15,
+        "amount": 4,
+        "id": 209,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-04-15 00:00:00",
+        "price": -6,
+        "amount": 5,
+        "id": 210,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-04-15 00:00:00",
+        "price": -3,
+        "amount": 7,
+        "id": 211,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-04-16 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 212,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-04-17 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 213,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-04-18 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 214,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-04-20 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 215,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-04-22 00:00:00",
+        "price": -10,
+        "amount": 3,
+        "id": 216,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-04-22 00:00:00",
+        "price": -5,
+        "amount": 13,
+        "id": 217,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-04-22 00:00:00",
+        "price": -2,
+        "amount": 12,
+        "id": 218,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-04-23 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 219,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-04-24 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 220,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-04-24 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 221,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-04-25 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 222,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-04-25 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 223,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-04-25 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 224,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-04-26 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 225,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-04-27 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 226,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-04-27 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 227,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-04-29 00:00:00",
+        "price": -12,
+        "amount": 8,
+        "id": 228,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-04-29 00:00:00",
+        "price": -5,
+        "amount": 11,
+        "id": 229,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-04-29 00:00:00",
+        "price": -3,
+        "amount": 0,
+        "id": 230,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-01 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 231,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-02 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 232,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-02 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 233,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-02 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 234,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-03 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 235,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-04 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 236,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-06 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 237,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-05-06 00:00:00",
+        "price": -10,
+        "amount": 0,
+        "id": 238,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-05-06 00:00:00",
+        "price": -5,
+        "amount": 10,
+        "id": 239,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-05-06 00:00:00",
+        "price": -2,
+        "amount": 8,
+        "id": 240,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-07 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 241,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-08 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 242,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-08 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 243,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-09 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 244,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-09 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 245,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-05-13 00:00:00",
+        "price": -12,
+        "amount": 2,
+        "id": 246,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-05-13 00:00:00",
+        "price": -6,
+        "amount": 14,
+        "id": 247,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-05-13 00:00:00",
+        "price": -2,
+        "amount": 2,
+        "id": 248,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-14 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 249,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-15 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 250,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-16 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 251,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-16 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 252,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-16 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 253,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-17 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 254,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-18 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 255,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-18 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 256,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-05-20 00:00:00",
+        "price": -12,
+        "amount": 4,
+        "id": 257,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-05-20 00:00:00",
+        "price": -5,
+        "amount": 13,
+        "id": 258,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-05-20 00:00:00",
+        "price": -2,
+        "amount": 5,
+        "id": 259,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-21 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 260,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-22 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 261,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-23 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 262,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-23 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 263,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-25 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 264,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-05-27 00:00:00",
+        "price": -15,
+        "amount": 0,
+        "id": 265,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-05-27 00:00:00",
+        "price": -7,
+        "amount": 10,
+        "id": 266,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-05-27 00:00:00",
+        "price": -2,
+        "amount": 1,
+        "id": 267,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-28 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 268,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-29 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 269,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-29 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 270,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-05-30 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 271,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-05-31 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 272,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-06-03 00:00:00",
+        "price": -10,
+        "amount": 0,
+        "id": 273,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-06-03 00:00:00",
+        "price": -6,
+        "amount": 16,
+        "id": 274,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-06-03 00:00:00",
+        "price": -3,
+        "amount": 5,
+        "id": 275,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-06-04 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 276,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-06-06 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 277,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-06-07 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 278,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-06-07 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 279,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-06-08 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 280,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-06-10 00:00:00",
+        "price": -10,
+        "amount": 5,
+        "id": 281,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-06-10 00:00:00",
+        "price": -5,
+        "amount": 5,
+        "id": 282,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-06-10 00:00:00",
+        "price": -3,
+        "amount": 0,
+        "id": 283,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-06-11 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 284,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-06-14 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 285,
+        "type": "Assets"
+    },
+    {
+        "name": "Maintainance",
+        "date": "2024-06-14 00:00:00",
+        "price": -2000,
+        "amount": 1,
+        "id": 286,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-06-15 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 287,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-06-17 00:00:00",
+        "price": -12,
+        "amount": 7,
+        "id": 288,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-06-17 00:00:00",
+        "price": -6,
+        "amount": 14,
+        "id": 289,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-06-17 00:00:00",
+        "price": -2,
+        "amount": 9,
+        "id": 290,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Maintainance",
+        "date": "2024-06-17 00:00:00",
+        "price": -5000,
+        "amount": 1,
+        "id": 291,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-06-18 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 292,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-06-18 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 293,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-06-19 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 294,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-06-20 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 295,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-06-21 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 296,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-06-22 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 297,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-06-24 00:00:00",
+        "price": -12,
+        "amount": 1,
+        "id": 298,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-06-24 00:00:00",
+        "price": -6,
+        "amount": 20,
+        "id": 299,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-06-24 00:00:00",
+        "price": -5,
+        "amount": 17,
+        "id": 300,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-06-25 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 301,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-06-25 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 302,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-06-26 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 303,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-06-26 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 304,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-06-27 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 305,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-06-27 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 306,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-06-28 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 307,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-06-29 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 308,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-06-29 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 309,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-07-01 00:00:00",
+        "price": -10,
+        "amount": 7,
+        "id": 310,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-07-01 00:00:00",
+        "price": -7,
+        "amount": 22,
+        "id": 311,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-07-01 00:00:00",
+        "price": -2,
+        "amount": 3,
+        "id": 312,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-07-02 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 313,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-02 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 314,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-03 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 315,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-04 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 316,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-04 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 317,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-07-04 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 318,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-06 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 319,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-06 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 320,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-07-08 00:00:00",
+        "price": -10,
+        "amount": 0,
+        "id": 321,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-07-08 00:00:00",
+        "price": -7,
+        "amount": 19,
+        "id": 322,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-07-08 00:00:00",
+        "price": -5,
+        "amount": 9,
+        "id": 323,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-10 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 324,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-07-10 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 325,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-10 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 326,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-11 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 327,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-07-11 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 328,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-13 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 329,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-07-13 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 330,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-13 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 331,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-07-15 00:00:00",
+        "price": -12,
+        "amount": 2,
+        "id": 332,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-07-15 00:00:00",
+        "price": -6,
+        "amount": 15,
+        "id": 333,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-07-15 00:00:00",
+        "price": -5,
+        "amount": 1,
+        "id": 334,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-07-16 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 335,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-07-17 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 336,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-17 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 337,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-20 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 338,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-20 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 339,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-07-22 00:00:00",
+        "price": -12,
+        "amount": 0,
+        "id": 340,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-07-22 00:00:00",
+        "price": -7,
+        "amount": 4,
+        "id": 341,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-07-22 00:00:00",
+        "price": -3,
+        "amount": 1,
+        "id": 342,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-07-23 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 343,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-07-23 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 344,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-07-24 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 345,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-07-25 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 346,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-07-29 00:00:00",
+        "price": -10,
+        "amount": 2,
+        "id": 347,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-07-29 00:00:00",
+        "price": -7,
+        "amount": 10,
+        "id": 348,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-07-29 00:00:00",
+        "price": -5,
+        "amount": 9,
+        "id": 349,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-07-30 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 350,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-07-31 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 351,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-01 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 352,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-03 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 353,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-08-03 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 354,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-08-05 00:00:00",
+        "price": -12,
+        "amount": 5,
+        "id": 355,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-08-05 00:00:00",
+        "price": -5,
+        "amount": 12,
+        "id": 356,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-08-05 00:00:00",
+        "price": -2,
+        "amount": 0,
+        "id": 357,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-07 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 358,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-08 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 359,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-08-09 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 360,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-10 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 361,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-08-12 00:00:00",
+        "price": -12,
+        "amount": 0,
+        "id": 362,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-08-12 00:00:00",
+        "price": -7,
+        "amount": 13,
+        "id": 363,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-08-12 00:00:00",
+        "price": -5,
+        "amount": 11,
+        "id": 364,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-08-13 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 365,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-13 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 366,
+        "type": "Assets"
+    },
+    {
+        "name": "Maintainance",
+        "date": "2024-08-13 00:00:00",
+        "price": -5000,
+        "amount": 1,
+        "id": 367,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-08-15 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 368,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-17 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 369,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-08-17 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 370,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-08-19 00:00:00",
+        "price": -10,
+        "amount": 5,
+        "id": 371,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-08-19 00:00:00",
+        "price": -6,
+        "amount": 10,
+        "id": 372,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-08-19 00:00:00",
+        "price": -5,
+        "amount": 0,
+        "id": 373,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-20 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 374,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-22 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 375,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-08-26 00:00:00",
+        "price": -10,
+        "amount": 2,
+        "id": 376,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-08-26 00:00:00",
+        "price": -6,
+        "amount": 23,
+        "id": 377,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-08-26 00:00:00",
+        "price": -3,
+        "amount": 5,
+        "id": 378,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-27 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 379,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-08-27 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 380,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-08-28 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 381,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-28 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 382,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-08-29 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 383,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-29 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 384,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-29 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 385,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-08-30 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 386,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-02 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 387,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-09-02 00:00:00",
+        "price": -10,
+        "amount": 7,
+        "id": 388,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-09-02 00:00:00",
+        "price": -6,
+        "amount": 14,
+        "id": 389,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-09-02 00:00:00",
+        "price": -3,
+        "amount": 1,
+        "id": 390,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-03 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 391,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-09-03 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 392,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-04 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 393,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-05 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 394,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-06 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 395,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-07 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 396,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-09-09 00:00:00",
+        "price": -15,
+        "amount": 5,
+        "id": 397,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-09-09 00:00:00",
+        "price": -5,
+        "amount": 18,
+        "id": 398,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-09-09 00:00:00",
+        "price": -3,
+        "amount": 8,
+        "id": 399,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-09-10 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 400,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-10 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 401,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-11 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 402,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-11 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 403,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-09-14 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 404,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-14 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 405,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-09-16 00:00:00",
+        "price": -15,
+        "amount": 6,
+        "id": 406,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-09-16 00:00:00",
+        "price": -5,
+        "amount": 15,
+        "id": 407,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-09-16 00:00:00",
+        "price": -5,
+        "amount": 10,
+        "id": 408,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-09-18 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 409,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-18 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 410,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-18 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 411,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-19 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 412,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-09-19 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 413,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-09-21 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 414,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-21 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 415,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-21 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 416,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-09-23 00:00:00",
+        "price": -10,
+        "amount": 0,
+        "id": 417,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-09-23 00:00:00",
+        "price": -5,
+        "amount": 6,
+        "id": 418,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-09-23 00:00:00",
+        "price": -2,
+        "amount": 1,
+        "id": 419,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-09-24 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 420,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-09-24 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 421,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-26 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 422,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-09-26 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 423,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-09-30 00:00:00",
+        "price": -12,
+        "amount": 4,
+        "id": 424,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-09-30 00:00:00",
+        "price": -7,
+        "amount": 22,
+        "id": 425,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-09-30 00:00:00",
+        "price": -3,
+        "amount": 18,
+        "id": 426,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-01 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 427,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-02 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 428,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-02 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 429,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-02 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 430,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-03 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 431,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-03 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 432,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-03 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 433,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-04 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 434,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-04 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 435,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-05 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 436,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-05 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 437,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-06 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 438,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-10-07 00:00:00",
+        "price": -15,
+        "amount": 3,
+        "id": 439,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-10-07 00:00:00",
+        "price": -6,
+        "amount": 29,
+        "id": 440,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-10-07 00:00:00",
+        "price": -5,
+        "amount": 17,
+        "id": 441,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-08 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 442,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-09 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 443,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-09 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 444,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-10 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 445,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-10 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 446,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-11 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 447,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-11 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 448,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-11 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 449,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-12 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 450,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-12 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 451,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-12 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 452,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-13 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 453,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-13 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 454,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-10-14 00:00:00",
+        "price": -12,
+        "amount": 7,
+        "id": 455,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-10-14 00:00:00",
+        "price": -6,
+        "amount": 15,
+        "id": 456,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-10-14 00:00:00",
+        "price": -2,
+        "amount": 7,
+        "id": 457,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-15 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 458,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-16 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 459,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-16 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 460,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-17 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 461,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-17 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 462,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-18 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 463,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-18 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 464,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-19 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 465,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-19 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 466,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-10-21 00:00:00",
+        "price": -15,
+        "amount": 7,
+        "id": 467,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-10-21 00:00:00",
+        "price": -6,
+        "amount": 24,
+        "id": 468,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-10-21 00:00:00",
+        "price": -5,
+        "amount": 20,
+        "id": 469,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-22 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 470,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-22 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 471,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-23 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 472,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-23 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 473,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-23 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 474,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-24 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 475,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-24 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 476,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-25 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 477,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-26 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 478,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-26 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 479,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-27 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 480,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-27 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 481,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-28 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 482,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-10-28 00:00:00",
+        "price": -12,
+        "amount": 3,
+        "id": 483,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-10-28 00:00:00",
+        "price": -7,
+        "amount": 26,
+        "id": 484,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-10-28 00:00:00",
+        "price": -3,
+        "amount": 16,
+        "id": 485,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-29 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 486,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-30 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 487,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-30 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 488,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-30 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 489,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-10-31 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 490,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-10-31 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 491,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-01 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 492,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-01 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 493,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-02 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 494,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-02 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 495,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-02 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 496,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-03 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 497,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-11-04 00:00:00",
+        "price": -12,
+        "amount": 8,
+        "id": 498,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-11-04 00:00:00",
+        "price": -6,
+        "amount": 16,
+        "id": 499,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-11-04 00:00:00",
+        "price": -5,
+        "amount": 15,
+        "id": 500,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-05 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 501,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-06 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 502,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-06 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 503,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-07 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 504,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-07 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 505,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-08 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 506,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-09 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 507,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-09 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 508,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-10 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 509,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-10 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 510,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-10 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 511,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-11-11 00:00:00",
+        "price": -15,
+        "amount": 0,
+        "id": 512,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-11-11 00:00:00",
+        "price": -6,
+        "amount": 15,
+        "id": 513,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-11-11 00:00:00",
+        "price": -5,
+        "amount": 10,
+        "id": 514,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-12 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 515,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-13 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 516,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-14 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 517,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-14 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 518,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-15 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 519,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-15 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 520,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-16 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 521,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-16 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 522,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-17 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 523,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-11-18 00:00:00",
+        "price": -10,
+        "amount": 0,
+        "id": 524,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-11-18 00:00:00",
+        "price": -6,
+        "amount": 16,
+        "id": 525,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-11-18 00:00:00",
+        "price": -2,
+        "amount": 13,
+        "id": 526,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-20 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 527,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-20 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 528,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-21 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 529,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-21 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 530,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-22 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 531,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-22 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 532,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-23 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 533,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-23 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 534,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-23 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 535,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-24 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 536,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-11-25 00:00:00",
+        "price": -10,
+        "amount": 4,
+        "id": 537,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-11-25 00:00:00",
+        "price": -7,
+        "amount": 20,
+        "id": 538,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-11-25 00:00:00",
+        "price": -2,
+        "amount": 21,
+        "id": 539,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-26 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 540,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-26 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 541,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-27 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 542,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-27 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 543,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-28 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 544,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-28 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 545,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-28 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 546,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-29 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 547,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-29 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 548,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-11-30 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 549,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-30 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 550,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-11-30 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 551,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-01 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 552,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-01 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 553,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-12-02 00:00:00",
+        "price": -15,
+        "amount": 6,
+        "id": 554,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-12-02 00:00:00",
+        "price": -7,
+        "amount": 25,
+        "id": 555,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-12-02 00:00:00",
+        "price": -5,
+        "amount": 15,
+        "id": 556,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-03 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 557,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-03 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 558,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-04 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 559,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-04 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 560,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-05 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 561,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-05 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 562,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-06 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 563,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-06 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 564,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-07 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 565,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-07 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 566,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-08 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 567,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-08 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 568,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-08 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 569,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-12-09 00:00:00",
+        "price": -12,
+        "amount": 5,
+        "id": 570,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-12-09 00:00:00",
+        "price": -6,
+        "amount": 24,
+        "id": 571,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-12-09 00:00:00",
+        "price": -2,
+        "amount": 11,
+        "id": 572,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-10 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 573,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-11 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 574,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-11 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 575,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-11 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 576,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-12 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 577,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-12 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 578,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-13 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 579,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-13 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 580,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-14 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 581,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-14 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 582,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-16 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 583,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-12-16 00:00:00",
+        "price": -10,
+        "amount": 10,
+        "id": 584,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-12-16 00:00:00",
+        "price": -5,
+        "amount": 29,
+        "id": 585,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-12-16 00:00:00",
+        "price": -3,
+        "amount": 13,
+        "id": 586,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-17 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 587,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-17 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 588,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-18 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 589,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-18 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 590,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-18 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 591,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-19 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 592,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-19 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 593,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-19 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 594,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-20 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 595,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-20 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 596,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-21 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 597,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-21 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 598,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-23 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 599,
+        "type": "Assets"
+    },
+    {
+        "name": "buy raw material 1",
+        "date": "2024-12-23 00:00:00",
+        "price": -12,
+        "amount": 3,
+        "id": 600,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 2",
+        "date": "2024-12-23 00:00:00",
+        "price": -7,
+        "amount": 37,
+        "id": 601,
+        "type": "Liabilities"
+    },
+    {
+        "name": "buy raw material 3",
+        "date": "2024-12-23 00:00:00",
+        "price": -2,
+        "amount": 22,
+        "id": 602,
+        "type": "Liabilities"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-24 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 603,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-24 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 604,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-24 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 605,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-24 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 606,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-25 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 607,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-25 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 608,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-25 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 609,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-26 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 610,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-26 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 611,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-26 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 612,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-27 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 613,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-27 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 614,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-27 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 615,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-28 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 616,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-28 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 617,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 1",
+        "date": "2024-12-28 00:00:00",
+        "price": 50,
+        "amount": 1,
+        "id": 618,
+        "type": "Assets"
+    },
+    {
+        "name": "Service 2",
+        "date": "2024-12-29 00:00:00",
+        "price": 70,
+        "amount": 1,
+        "id": 619,
+        "type": "Assets"
+    }
+]

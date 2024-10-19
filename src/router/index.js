@@ -21,6 +21,25 @@ const routes = [
     name: 'dashboard',
     component: Home
   },
+  //assets and liabilities
+  {
+    meta: {
+      title: 'Assets'
+    },
+    path: '/assets',
+    name: 'assets',
+    component: () => import('@/views/AssetsView.vue')
+  },
+
+  {
+    meta: {
+      title: 'Liabilities'
+    },
+    path: '/liabilities',
+    name: 'liabilities',
+    component: () => import('@/views/LiabilitiesView.vue')
+  },
+
   {
     meta: {
       title: 'Tables'

@@ -37,11 +37,7 @@ const datasetObject = (color, points) => {
 }
 
 export const sampleChartData = (points = 9) => {
-  const labels = []
-
-  for (let i = 1; i <= points; i++) {
-    labels.push(`0${i}`)
-  }
+  const labels = ['January', 'February', 'March', 'April', 'May']
 
   return {
     labels,

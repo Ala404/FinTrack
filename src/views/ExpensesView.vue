@@ -1,5 +1,5 @@
 <script setup>
-import {  ref, onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
 import {
   mdiChartPie,
   mdiExportVariant
@@ -21,18 +21,23 @@ const fillChartData = () => {
   ExpensesData.value = chartConfig.sampleChartData()
 }
 
+const expensess = [
+  { id: 1, label: 'Rent', amount: 1000 },
+  { id: 2, label: 'Utilities', amount: 500 },
+  { id: 3, label: 'Groceries', amount: 800 },
+  { id: 4, label: 'Transportation', amount: 400 }
+]
+
 onMounted(() => {
   fillChartData()
 })
-
-
 </script>
 
 <template>
   <LayoutAuthenticated>
     <SectionMain>
-    <SectionTitleLineWithButton :icon="mdiChartPie" title="Expesnses">
-          <BaseButton
+      <SectionTitleLineWithButton :icon="mdiChartPie" title="Expenses">
+        <BaseButton
           href=""
           target="_blank"
           :icon="mdiExportVariant"
@@ -40,9 +45,22 @@ onMounted(() => {
           color="gray"
           rounded-full
           small
-
         />
       </SectionTitleLineWithButton>
+<div class="">
+<CardBox class="mb-6">
+          <div v-if="expensess">
+            <h2 class="text-lg font-semibold mb-4">Different Kinds of Expenses</h2>
+            <ul>
+              <li v-for="expense in expensess" :key="expense.id">
+                <div class="flex justify-between border-y p-2">
+                  <span>{{ expense.label }}</span>
+                  <span>{{ expense.amount }}</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </CardBox>
 
         <CardBox class="mb-6">
           <div v-if="chartData">
@@ -50,6 +68,7 @@ onMounted(() => {
           </div>
         </CardBox>
 
+</div>
     </SectionMain>
   </LayoutAuthenticated>
 </template>

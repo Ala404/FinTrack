@@ -33,11 +33,7 @@ export default [
     label: 'Transactions'
   },
 
-  // {
-  //   to: '/tables',
-  //   label: 'Tables',
-  //   icon: mdiTable
-  // },
+
   {
     to: '/forms',
     label: 'Forms',
@@ -48,11 +44,6 @@ export default [
     label: 'UI',
     icon: mdiTelevisionGuide
   },
-  // {
-  //   to: '/responsive',
-  //   label: 'Responsive',
-  //   icon: mdiResponsive
-  // },
 
   {
     to: '/profile',
@@ -64,9 +55,5 @@ export default [
     label: 'Login',
     icon: mdiLock
   }
-  // {
-  //   to: '/error',
-  //   label: 'Error',
-  //   icon: mdiAlertCircle
-  // },
+
 ]

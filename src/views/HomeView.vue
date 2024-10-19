@@ -94,15 +94,7 @@ const transactionBarItems = computed(() => mainStore.history)
       <FormField label="Data Type" class="col-span-2">
         <FormControl v-model="reportsForm.dataType" class="flex-1"  :options="exportType"  />
       </FormField>
-        <!-- <BaseButton
-          @click="addTransactionName"
-          :icon="mdiPlus"
-          label="Add"
-          color="info"
-          class="text-white "
-          rounded
-          small
-        /> -->
+ 
     </CardBoxModal>
 
     <SectionMain>

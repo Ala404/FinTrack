@@ -5,11 +5,11 @@ import Home from '@/views/HomeView.vue'
 const routes = [
   {
     meta: {
-      title: 'Select style'
+      title: 'Home'
     },
     path: '/',
-    name: 'style',
-    component: Style
+    name: 'Home',
+    component: Home
   },
   {
     // Document title tag

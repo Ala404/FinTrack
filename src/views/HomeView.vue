@@ -83,18 +83,18 @@ const transactionBarItems = computed(() => mainStore.history)
     >
 
       <FormField label="Start Date" class="col-span-2">
-        <FormControl v-model="reportsForm.startDate" class="flex-1"   />
+        <FormControl  v-model="reportsForm.startDate" type="date" class="flex-1"   />
       </FormField>
       <FormField label="End Date" class="col-span-2">
-        <FormControl v-model="reportsForm.endDate" class="flex-1"   />
-      </FormField>
-      <FormField label="Data Type" class="col-span-2">
-        <FormControl v-model="reportsForm.dataType" class="flex-1"   />
+        <FormControl v-model="reportsForm.endDate" type="date" class="flex-1"   />
       </FormField>
       <FormField label="Data To Export" class="col-span-2">
-        <FormControl v-model="reportsForm.dataToExport" class="flex-1"   />
+        <FormControl v-model="reportsForm.dataToExport" class="flex-1" :options="exportData"  />
       </FormField>
-        <BaseButton
+      <FormField label="Data Type" class="col-span-2">
+        <FormControl v-model="reportsForm.dataType" class="flex-1"  :options="exportType"  />
+      </FormField>
+        <!-- <BaseButton
           @click="addTransactionName"
           :icon="mdiPlus"
           label="Add"
@@ -102,30 +102,12 @@ const transactionBarItems = computed(() => mainStore.history)
           class="text-white "
           rounded
           small
-        />
+        /> -->
     </CardBoxModal>
-     <CardBoxModal
-      v-model="DataModalOneActive"
-      title="add new transaction"
-      button-label="Done"
-      has-cancel
-    >
-      <FormField label="Name" class="col-span-2">
-        <FormControl v-model="newAssetName" class="flex-1" placeholder="Your Asset Name"  />
-        <BaseButton
-          @click="addTransactionName"
-          :icon="mdiPlus"
-          label="Add"
-          color="info"
-          class="text-white "
-          rounded
-          small
-        />
-      </FormField>
-    </CardBoxModal>
+ 
     <SectionMain>
       <SectionTitleLineWithButton :icon="mdiChartTimelineVariant" title="Overview" main>
-     <div class="">
+     <div class="space-x-6">
            <BaseButton
            @click="reportsModalOneActive = true"
             href=""
@@ -138,7 +120,7 @@ const transactionBarItems = computed(() => mainStore.history)
 
           />
           <BaseButton
-            @click="DataModalOneActive = true"
+            @click="reportsModalOneActive = true"
             href=""
             target="_blank"
             :icon="mdiExportVariant"

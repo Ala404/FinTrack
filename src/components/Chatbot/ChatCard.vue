@@ -1,31 +1,33 @@
 <template>
-  <q-card class="my-card mb-96 w-64 sm:w-72 md:w-96 h-64 sm:h-72 md:h-96 relative overflow-y-scroll">
-    <q-item class=" bg-slate-200 w-full ">
-      <q-item-section avatar>
-        <q-avatar>
-          <img
-            src="https://chat-gpt-5.ai/wp-content/uploads/2023/08/GPTBot.jpeg"
-            class="w-12 object-contain"
-          />
-        </q-avatar>
-      </q-item-section>
+  <q-card class="my-card mb-96 w-64 sm:w-72 md:w-96 h-64 sm:h-72 md:h-96 relative overflow-y-scroll pb-12">
+  <div class="fixed z-30 w-full">
+      <q-item class=" bg-slate-200  ">
+        <q-item-section avatar>
+          <q-avatar>
+            <img
+              src="https://chat-gpt-5.ai/wp-content/uploads/2023/08/GPTBot.jpeg"
+              class="w-12 object-contain"
+            />
+          </q-avatar>
+        </q-item-section>
 
-      <q-item-section>
-        <q-item-label>ChatBot</q-item-label>
-        <q-item-label caption>FinTrack Assistant</q-item-label>
-      </q-item-section>
-    </q-item>
+        <q-item-section>
+          <q-item-label>ChatBot</q-item-label>
+          <q-item-label caption>FinTrack Assistant</q-item-label>
+        </q-item-section>
+      </q-item>
+  </div>
 
     <q-item-section class="">
       <ChatBubble :chats="chats" @newMessage="handleNewMessage" @newBotResponse="handleNewMessage" />
     </q-item-section>
-    <div class="flex fixed bottom-5 w-full items-center bg-white drop-shadow-md justify-evenly">
+    <form @submit.prevent="" class="flex fixed bottom-5 w-full items-center bg-white drop-shadow-md justify-evenly ">
       <input v-model="text" type="text" class="flex-1 border-1 border-gray-500 rounded w-3/5 " />
 
       <q-card-actions>
-        <q-btn flat @click="send" class="text-subtitle2 bg-violet-500 text-white">Send</q-btn>
+        <q-btn flat @click="send" type="submit" class="text-subtitle2 bg-violet-500 text-white">Send</q-btn>
       </q-card-actions>
-    </div>
+    </form>
   </q-card>
 </template>
 

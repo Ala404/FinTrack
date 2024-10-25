@@ -21,7 +21,7 @@
     <q-item-section class="">
       <ChatBubble :chats="chats" @newMessage="handleNewMessage" @newBotResponse="handleNewMessage" />
     </q-item-section>
-    <form @submit.prevent="" class="flex fixed bottom-5 w-full items-center bg-white drop-shadow-md justify-evenly ">
+    <form @submit.prevent="" class="flex fixed bottom-10 sm:bottom-5 w-full items-center bg-white drop-shadow-md justify-evenly pl-2 ">
       <input v-model="text" type="text" class="flex-1 border-1 border-gray-500 rounded w-3/5 " />
 
       <q-card-actions>

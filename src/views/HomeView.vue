@@ -17,6 +17,7 @@ import FormField from '@/components/Forms/FormField.vue'
 import FormControl from '@/components/Forms/FormControl.vue'
 import BaseDivider from '@/components/BaseDivider.vue'
 
+// import SectionBannerStarOnGitHub from '@/components/SectionBannerStarOnGitHub.vue'
 
 const chartData = ref(null)
 const ExpensesData = ref(null)

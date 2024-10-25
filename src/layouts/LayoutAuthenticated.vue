@@ -38,11 +38,6 @@ const menuClick = (event, item) => {
 }
 
 
-
-const chats = ref([
-  { message: 'Hi! How are you?', type: 'chatbot' },
-  { message: 'Hello, im fine, thanks.', type: 'person', timestamp: '3:46 PM' }
-])
 </script>
 
 <template>
@@ -52,11 +47,7 @@ const chats = ref([
     }"
     class="relative"
   >
-     <ChatBToggleBtn>
-      <template #default>
-        <div>ggg</div>
-      </template>
-     </ChatBToggleBtn>
+    <ChatBToggleBtn/>
     <div
       :class="[layoutAsidePadding, { 'ml-60 lg:ml-0': isAsideMobileExpanded }]"
       class="pt-14 min-h-screen w-screen transition-position lg:w-auto bg-gray-50 dark:bg-slate-800 dark:text-slate-100"

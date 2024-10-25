@@ -1,14 +1,19 @@
 <template>
   <div class="q-pa-md row justify-center">
     <div style="width: 100%; max-width: 400px">
-      <q-chat-message v-for="chat in chats" :key="chat.message" :text="chat.message"> </q-chat-message>
+      <q-chat-message
+
+        v-for="chat in chats"
+        :key="chat.message"
+        :text="[chat.message]"
+        :sent="chat.type === 'chatbot' ? false : true"
+      >
+      </q-chat-message>
     </div>
   </div>
 </template>
 
 <script setup>
-import { computed, onMounted } from 'vue'
-
 const props = defineProps({
   chats: {
     type: Array,
@@ -16,22 +21,20 @@ const props = defineProps({
   }
 })
 
-const emits = defineEmits(['newMessage'])
+const emits = defineEmits(['newMessage', 'newBotResponse'])
 
 const addMessage = (message) => {
   console.log(message)
   emits('newMessage', message)
+  // Simulate bot response after user message
+  setTimeout(() => {
+    const botResponse = generateBotResponse(message)
+    emits('newBotResponse', botResponse)
+  }, 1000) // Simulate delay for bot response
 }
-onMounted(() => {
-  console.log(
-    'chats from child',
-    props.chats.map((chat) => chat.message)
-  )
-})
 
-const userChats = computed(() => props.chats.filter((chat) => chat.type === 'person'))
-const botChats = computed(() => props.chats.filter((chat) => chat.type === 'chatbot'))
-
-const ChatBotMsges = userChats.value.map((chat) => chat.message)
-const ChatUserMsges = botChats.value.map((chat) => chat.message)
+const generateBotResponse = (message) => {
+  // Generate a bot response based on the user's message
+  return { message: 'This is a bot response to: ' + message.message, type: 'chatbot' }
+}
 </script>

@@ -3,7 +3,7 @@ import { useForm, Head } from '@inertiajs/vue3'
 import { ref } from 'vue'
 import LayoutGuest from '@/layouts/LayoutGuest.vue'
 import SectionFullScreen from '@/components/SectionFullScreen.vue'
-import CardBox from '@/components/CardBox.vue'
+import CardBox from '@/components/Cards/CardBox.vue'
 import FormControl from '@/components/FormControl.vue'
 import FormField from '@/components/FormField.vue'
 import BaseDivider from '@/components/BaseDivider.vue'
@@ -30,7 +30,7 @@ const submit = () => {
 <template>
   <LayoutGuest>
     <Head title="Secure Area" />
-    
+
     <SectionFullScreen
       v-slot="{ cardClass }"
       bg="purplePink"

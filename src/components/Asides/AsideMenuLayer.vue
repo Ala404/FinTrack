@@ -1,8 +1,8 @@
 <script setup>
 import { mdiLogout, mdiClose } from '@mdi/js'
 import { computed } from 'vue'
-import AsideMenuList from '@/components/AsideMenuList.vue'
-import AsideMenuItem from '@/components/AsideMenuItem.vue'
+import AsideMenuList from '@/components/Asides/AsideMenuList.vue'
+import AsideMenuItem from '@/components/Asides/AsideMenuItem.vue'
 import BaseIcon from '@/components/BaseIcon.vue'
 
 defineProps({
@@ -39,7 +39,7 @@ const asideLgCloseClick = (event) => {
     <div class="aside lg:rounded-2xl flex-1 flex flex-col overflow-hidden dark:bg-slate-900">
       <div class="aside-brand flex flex-row h-14 items-center justify-between dark:bg-slate-900">
         <div class="text-center flex-1 w-full lg:text-left lg:pl-6 xl:text-center xl:pl-0">
-          <b class="font-black ">FinTrack</b>
+          <b class="font-black">FinTrack</b>
         </div>
         <button class="hidden lg:inline-block xl:hidden p-3" @click.prevent="asideLgCloseClick">
           <BaseIcon :path="mdiClose" />
@@ -52,7 +52,7 @@ const asideLgCloseClick = (event) => {
       </div>
 
       <ul>
-        <AsideMenuItem :item="logoutItem" :to="{name:'login'}" @menu-click="menuClick" />
+        <AsideMenuItem :item="logoutItem" :to="{ name: 'login' }" @menu-click="menuClick" />
       </ul>
     </div>
   </aside>

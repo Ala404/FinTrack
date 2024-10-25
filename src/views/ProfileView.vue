@@ -3,13 +3,13 @@ import { reactive } from 'vue'
 import { useMainStore } from '@/stores/main'
 import { mdiAccount, mdiMail, mdiAsterisk, mdiFormTextboxPassword, mdiGithub } from '@mdi/js'
 import SectionMain from '@/components/SectionMain.vue'
-import CardBox from '@/components/CardBox.vue'
+import CardBox from '@/components/Cards/CardBox.vue'
 import BaseDivider from '@/components/BaseDivider.vue'
-import FormField from '@/components/FormField.vue'
-import FormControl from '@/components/FormControl.vue'
-import FormFilePicker from '@/components/FormFilePicker.vue'
-import BaseButton from '@/components/BaseButton.vue'
-import BaseButtons from '@/components/BaseButtons.vue'
+import FormField from '@/components/Forms/FormField.vue'
+import FormControl from '@/components/Forms/FormControl.vue'
+import FormFilePicker from '@/components/Forms/FormFilePicker.vue'
+import BaseButton from '@/components/Buttons/BaseButton.vue'
+import BaseButtons from '@/components/Buttons/BaseButtons.vue'
 import UserCard from '@/components/UserCard.vue'
 import LayoutAuthenticated from '@/layouts/LayoutAuthenticated.vue'
 import SectionTitleLineWithButton from '@/components/SectionTitleLineWithButton.vue'
@@ -40,15 +40,6 @@ const submitPass = () => {
   <LayoutAuthenticated>
     <SectionMain>
       <SectionTitleLineWithButton :icon="mdiAccount" title="Profile" main>
-        <BaseButton
-          href="https://github.com/justboil/admin-one-vue-tailwind"
-          target="_blank"
-          :icon="mdiGithub"
-          label="Star on GitHub"
-          color="contrast"
-          rounded-full
-          small
-        />
       </SectionTitleLineWithButton>
 
       <UserCard class="mb-6" />

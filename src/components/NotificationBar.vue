@@ -4,7 +4,7 @@ import { mdiClose } from '@mdi/js'
 import { colorsBgLight, colorsOutline } from '@/colors.js'
 import BaseLevel from '@/components/BaseLevel.vue'
 import BaseIcon from '@/components/BaseIcon.vue'
-import BaseButton from '@/components/BaseButton.vue'
+import BaseButton from '@/components/Buttons/BaseButton.vue'
 
 const props = defineProps({
   icon: {

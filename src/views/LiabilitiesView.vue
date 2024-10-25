@@ -2,14 +2,14 @@
 import { reactive, ref } from 'vue'
 import { mdiHandExtended, mdiAccount, mdiMail, mdiGithub } from '@mdi/js'
 import SectionMain from '@/components/SectionMain.vue'
-import CardBox from '@/components/CardBox.vue'
-import FormCheckRadioGroup from '@/components/FormCheckRadioGroup.vue'
-import FormFilePicker from '@/components/FormFilePicker.vue'
-import FormField from '@/components/FormField.vue'
-import FormControl from '@/components/FormControl.vue'
+import CardBox from '@/components/Cards/CardBox.vue'
+import FormCheckRadioGroup from '@/components/Forms/FormCheckRadioGroup.vue'
+import FormFilePicker from '@/components/Forms/FormFilePicker.vue'
+import FormField from '@/components/Forms/FormField.vue'
+import FormControl from '@/components/Forms/FormControl.vue'
 import BaseDivider from '@/components/BaseDivider.vue'
-import BaseButton from '@/components/BaseButton.vue'
-import BaseButtons from '@/components/BaseButtons.vue'
+import BaseButton from '@/components/Buttons/BaseButton.vue'
+import BaseButtons from '@/components/Buttons/BaseButtons.vue'
 import SectionTitle from '@/components/SectionTitle.vue'
 import LayoutAuthenticated from '@/layouts/LayoutAuthenticated.vue'
 import SectionTitleLineWithButton from '@/components/SectionTitleLineWithButton.vue'
@@ -68,7 +68,11 @@ const formStatusSubmit = () => {
           label="Liability Type"
           help="Categorize the liability (e.g., current liability, long-term liability)."
         >
-          <FormControl v-model="form.liabilityType" placeholder="Enter liability type" :options="selectOptions" />
+          <FormControl
+            v-model="form.liabilityType"
+            placeholder="Enter liability type"
+            :options="selectOptions"
+          />
         </FormField>
 
         <FormField label="Incurrence Date" help="Date when the liability was incurred.">

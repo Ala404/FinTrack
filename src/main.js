@@ -1,17 +1,47 @@
+import 'quasar/src/css/index.sass'
+import './css/main.css'
+
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+
 
 import App from './App.vue'
 import router from './router'
 import { useMainStore } from '@/stores/main.js'
 
-import './css/main.css'
+import PrimeVue from 'primevue/config'
+//primeVue components
+import Button from 'primevue/button'
+import SpeedDial from 'primevue/speeddial'
+import Toast from 'primevue/toast'
+import ToastService from 'primevue/toastservice'
+
+import Chat from 'vue3-beautiful-chat'
+
+import { Quasar, Notify } from 'quasar'
+import '@quasar/extras/material-icons/material-icons.css'
+// Import Quasar css
 
 // Init Pinia
 const pinia = createPinia()
 
 // Create Vue app
-createApp(App).use(router).use(pinia).mount('#app')
+const app = createApp(App)
+
+app.use(router)
+app.use(pinia)
+app.use(PrimeVue, {
+  unstyled: false
+})
+app.use(
+  
+)
+app.component('SpeedDial', SpeedDial)
+app.component('Button', Button)
+app.component('Toast', Toast)
+app.use(ToastService)
+app.use(Chat)
+app.mount('#app')
 
 // Init main store
 const mainStore = useMainStore(pinia)

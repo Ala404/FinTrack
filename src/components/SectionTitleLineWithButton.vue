@@ -2,7 +2,7 @@
 import { mdiCog } from '@mdi/js'
 import { useSlots, computed } from 'vue'
 import BaseIcon from '@/components/BaseIcon.vue'
-import BaseButton from '@/components/BaseButton.vue'
+import BaseButton from '@/components/Buttons/BaseButton.vue'
 import IconRounded from '@/components/IconRounded.vue'
 
 const props = defineProps({
@@ -22,10 +22,9 @@ const props = defineProps({
 })
 
 const hasSlot = computed(() => useSlots().default)
-const classStyle = computed (() => {
+const classStyle = computed(() => {
   return [props.color, 'mr-2']
 })
-
 </script>
 
 <template>

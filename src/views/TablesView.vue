@@ -3,11 +3,11 @@ import { mdiMonitorCellphone, mdiTableBorder, mdiTableOff, mdiGithub } from '@md
 import SectionMain from '@/components/SectionMain.vue'
 import NotificationBar from '@/components/NotificationBar.vue'
 import TableSampleClients from '@/components/TableSampleClients.vue'
-import CardBox from '@/components/CardBox.vue'
+import CardBox from '@/components/Cards/CardBox.vue'
 import LayoutAuthenticated from '@/layouts/LayoutAuthenticated.vue'
 import SectionTitleLineWithButton from '@/components/SectionTitleLineWithButton.vue'
-import BaseButton from '@/components/BaseButton.vue'
-import CardBoxComponentEmpty from '@/components/CardBoxComponentEmpty.vue'
+import BaseButton from '@/components/Buttons/BaseButton.vue'
+import CardBoxComponentEmpty from '@/components/Cards/CardBoxComponentEmpty.vue'
 </script>
 
 <template>

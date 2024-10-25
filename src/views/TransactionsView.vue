@@ -2,19 +2,19 @@
 import { reactive, ref } from 'vue'
 import { mdiSwapVerticalBold, mdiAccount, mdiPlus } from '@mdi/js'
 import SectionMain from '@/components/SectionMain.vue'
-import CardBox from '@/components/CardBox.vue'
-import FormCheckRadioGroup from '@/components/FormCheckRadioGroup.vue'
-import FormFilePicker from '@/components/FormFilePicker.vue'
-import FormField from '@/components/FormField.vue'
-import FormControl from '@/components/FormControl.vue'
+import CardBox from '@/components/Cards/CardBox.vue'
+import FormCheckRadioGroup from '@/components/Forms/FormCheckRadioGroup.vue'
+import FormFilePicker from '@/components/Forms/FormFilePicker.vue'
+import FormField from '@/components/Forms/FormField.vue'
+import FormControl from '@/components/Forms/FormControl.vue'
 import BaseDivider from '@/components/BaseDivider.vue'
-import BaseButton from '@/components/BaseButton.vue'
-import BaseButtons from '@/components/BaseButtons.vue'
+import BaseButton from '@/components/Buttons/BaseButton.vue'
+import BaseButtons from '@/components/Buttons/BaseButtons.vue'
 import SectionTitle from '@/components/SectionTitle.vue'
 import LayoutAuthenticated from '@/layouts/LayoutAuthenticated.vue'
 import SectionTitleLineWithButton from '@/components/SectionTitleLineWithButton.vue'
 import TableSampleClients from '@/components/TableSampleClients.vue'
-import CardBoxModal from '@/components/CardBoxModal.vue'
+import CardBoxModal from '@/components/Cards/CardBoxModal.vue'
 
 const modalOneActive = ref(false)
 const newAssetName = ref('')
@@ -25,12 +25,11 @@ const transactionTypeOptions = [
   { id: 3, label: 'Debt' }
 ]
 
-const transactionNameOptions =reactive( [
+const transactionNameOptions = reactive([
   { id: 1, label: 'Buy smthing' },
   { id: 2, label: 'Sell smthing' },
   { id: 3, label: 'Transfer smthing' }
 ])
-
 
 const form = reactive({
   assetName: '',
@@ -49,8 +48,6 @@ const addTransactionName = () => {
   console.log(transactionNameOptions)
 }
 
-
-
 const formStatusWithHeader = ref(true)
 
 const formStatusCurrent = ref(0)
@@ -66,20 +63,20 @@ const formStatusSubmit = () => {
 
 <template>
   <LayoutAuthenticated>
-     <CardBoxModal
+    <CardBoxModal
       v-model="modalOneActive"
       title="add new transaction"
       button-label="Done"
       has-cancel
     >
       <FormField label="Name" class="col-span-2">
-        <FormControl v-model="newAssetName" class="flex-1" placeholder="Your Asset Name"  />
+        <FormControl v-model="newAssetName" class="flex-1" placeholder="Your Asset Name" />
         <BaseButton
           @click="addTransactionName"
           :icon="mdiPlus"
           label="Add"
           color="info"
-          class="text-white "
+          class="text-white"
           rounded
           small
         />
@@ -105,7 +102,12 @@ const formStatusSubmit = () => {
       <CardBox form @submit.prevent="submit">
         <div class="grid grid-cols-2 gap-6 lg:grid-cols-6">
           <FormField label="Name" class="md:col-span-6">
-            <FormControl v-model="form.assetName" class="flex-1" placeholder="Your Asset Name" :options="transactionNameOptions" />
+            <FormControl
+              v-model="form.assetName"
+              class="flex-1"
+              placeholder="Your Asset Name"
+              :options="transactionNameOptions"
+            />
             <BaseButton
               @click="modalOneActive = true"
               :icon="mdiPlus"
@@ -135,8 +137,14 @@ const formStatusSubmit = () => {
         </div>
 
         <template #footer>
-          <BaseButtons >
-            <BaseButton type="submit" color="info" label="Add Tansaction"   :icon="mdiPlus" class="w-48 p-8"/>
+          <BaseButtons>
+            <BaseButton
+              type="submit"
+              color="info"
+              label="Add Tansaction"
+              :icon="mdiPlus"
+              class="w-48 p-8"
+            />
           </BaseButtons>
         </template>
       </CardBox>

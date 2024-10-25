@@ -1,11 +1,11 @@
 <script setup>
 import { computed } from 'vue'
 import { mdiClose } from '@mdi/js'
-import BaseButton from '@/components/BaseButton.vue'
-import BaseButtons from '@/components/BaseButtons.vue'
-import CardBox from '@/components/CardBox.vue'
+import BaseButton from '@/components/Buttons/BaseButton.vue'
+import BaseButtons from '@/components/Buttons/BaseButtons.vue'
+import CardBox from '@/components/Cards/CardBox.vue'
 import OverlayLayer from '@/components/OverlayLayer.vue'
-import CardBoxComponentTitle from '@/components/CardBoxComponentTitle.vue'
+import CardBoxComponentTitle from '@/components/Cards/CardBoxComponentTitle.vue'
 
 const props = defineProps({
   title: {
@@ -73,7 +73,7 @@ window.addEventListener('keydown', (e) => {
       </div>
 
       <template #footer>
-        <BaseButtons  class="p-0">
+        <BaseButtons class="p-0">
           <BaseButton :label="buttonLabel" :color="button" @click="confirm" />
           <BaseButton v-if="hasCancel" label="Cancel" :color="button" outline @click="cancel" />
         </BaseButtons>

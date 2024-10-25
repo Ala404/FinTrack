@@ -9,14 +9,14 @@ import App from './App.vue'
 import router from './router'
 import { useMainStore } from '@/stores/main.js'
 
-import PrimeVue from 'primevue/config'
-//primeVue components
-import Button from 'primevue/button'
-import SpeedDial from 'primevue/speeddial'
-import Toast from 'primevue/toast'
-import ToastService from 'primevue/toastservice'
+// import PrimeVue from 'primevue/config'
+// //primeVue components
+// import Button from 'primevue/button'
+// import SpeedDial from 'primevue/speeddial'
+// import Toast from 'primevue/toast'
+// import ToastService from 'primevue/toastservice'
 
-import Chat from 'vue3-beautiful-chat'
+// import Chat from 'vue3-beautiful-chat'
 
 import { Quasar, Notify } from 'quasar'
 import '@quasar/extras/material-icons/material-icons.css'
@@ -28,19 +28,27 @@ const pinia = createPinia()
 // Create Vue app
 const app = createApp(App)
 
-app.use(router)
 app.use(pinia)
-app.use(PrimeVue, {
-  unstyled: false
-})
-app.use(
-  
-)
-app.component('SpeedDial', SpeedDial)
-app.component('Button', Button)
-app.component('Toast', Toast)
-app.use(ToastService)
-app.use(Chat)
+// app.use(PrimeVue, {
+  //   unstyled: false
+  // })
+  app.use(Quasar, {
+    plugins: {
+      Notify
+    },
+    config: {
+      notify: {
+        /* look at QuasarConfOptions from the API card */
+      }
+    }
+  })
+  app.use(router)
+
+// app.component('SpeedDial', SpeedDial)
+// app.component('Button', Button)
+// app.component('Toast', Toast)
+// app.use(ToastService)
+// app.use(Chat)
 app.mount('#app')
 
 // Init main store

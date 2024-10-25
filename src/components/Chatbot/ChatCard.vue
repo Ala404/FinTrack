@@ -1,0 +1,49 @@
+<template>
+  <q-card class="my-card mb-96 w-64 sm:w-72 md:w-96 h-64 sm:h-72 md:h-96 relative">
+    <q-item>
+      <q-item-section avatar>
+        <q-avatar>
+          <img
+            src="https://chat-gpt-5.ai/wp-content/uploads/2023/08/GPTBot.jpeg"
+            class="w-18 object-contain"
+          />
+        </q-avatar>
+      </q-item-section>
+
+      <q-item-section>
+        <q-item-label>ChatBot</q-item-label>
+        <q-item-label caption>FinTrack Assistant</q-item-label>
+      </q-item-section>
+    </q-item>
+
+    <q-item-section><ChatBubble :chats="chats" @newMessage="handleNewMessage" /> </q-item-section>
+    <div class="flex items-center absolute-bottom ">
+      <input v-model="text" type="text" class="flex-1 border-1 border-gray-500 p-0 h-12 mx-4  rounded" />
+
+      <q-card-actions>
+        <q-btn flat @click="send" class="text-subtitle2 bg-violet-500 text-white">Send</q-btn>
+      </q-card-actions>
+    </div>
+  </q-card>
+</template>
+
+<script setup>
+import ChatBubble from './ChatBubble.vue'
+import { ref } from 'vue'
+
+
+const chats = ref([
+  { message: 'Hi! How are you?', type: 'chatbot' },
+  { message: 'Hello, im fine, thanks.', type: 'person', timestamp: '3:46 PM' }
+])
+const text = ref('')
+
+const handleNewMessage = (message) => {
+  chats.value.push(message)
+}
+const send = () => {
+  const newMessage = { message: text.value, type: 'person' }
+  handleNewMessage(newMessage)
+  text.value = ''
+}
+</script>

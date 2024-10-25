@@ -11,8 +11,7 @@ import NavBar from '@/components/Navbars/NavBar.vue'
 import NavBarItemPlain from '@/components/Navbars/NavBarItemPlain.vue'
 import AsideMenu from '@/components/Asides/AsideMenu.vue'
 import FooterBar from '@/components/FooterBar.vue'
-    import { Chat } from "@chat-ui/vue3";
-import ChatBot from '@/components/Chatbot/ChatBot.vue'
+import ChatBToggleBtn from '@/components/Chatbot/ChatBToggleBtn.vue'
 
 const layoutAsidePadding = 'xl:pl-60'
 
@@ -37,10 +36,7 @@ const menuClick = (event, item) => {
     //
   }
 }
-    const emit = defineEmits(['send'])
-const send = (message) => {
- console.log(message)
-}
+
 
 
 const chats = ref([
@@ -56,9 +52,11 @@ const chats = ref([
     }"
     class="relative"
   >
-
-    <!-- <Chat :chat="chats" :onSend="send()" class="fixed z-50" /> -->
-     <ChatBot/>
+     <ChatBToggleBtn>
+      <template #default>
+        <div>ggg</div>
+      </template>
+     </ChatBToggleBtn>
     <div
       :class="[layoutAsidePadding, { 'ml-60 lg:ml-0': isAsideMobileExpanded }]"
       class="pt-14 min-h-screen w-screen transition-position lg:w-auto bg-gray-50 dark:bg-slate-800 dark:text-slate-100"
